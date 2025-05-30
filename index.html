@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Ellipse 1497.png" alt=""> <!----colocar a sua imagem e alterar alt="avatar da(o) Seu Nome"----->
+        <p class="lead">Julia Werneck dos Santos</p> <!----Colocar o seu nome----->
+        <h1>Sou estudante</h1> <!----Colocar a descrição do que você faz, ex: Sou Estudante----->
+        <p> Estou cursando o primeiro ano do ensino médio,  faço também informátca e programação básica , pela Udemy e eletrotecnica, no Senai</p> <!----Colocar o texto com a descriçaõ detalhada do que você faz----->
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p> <!----Colocar a habilidade 1----->
+            <p class="badge bg-secondary">CSS</p> <!----Colocar a habilidade 2----->
+            <p class="badge bg-secondary">JavaScript</p> <!----Colocar a habilidade 3----->
+            <p class="badge bg-secondary">Scratch</p> <!----Colocar a habilidade 4----->
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-------------------------------------------PROJETO 1---------------------------------------------------------------->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Rectangle 34624339 (1).png" alt="">> <!----Colocar a imagem do seu primeiro projeto----->
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo “Alone in the world”</h5> <!----Colocar o título do seu projeto----->
+                        <p class="card-text">Meu projeto atual, no qual ainda estou trabalhando, um jogo reflexivo.</p> <!----Colocar a descrição do seu projeto----->
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------------------PROJETO 2------------------------------------------------------------------>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Rectangle 34624339.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual"> <!----Colocar a imagem do seu segundo projeto----->
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo “Meu Pet”</h5> <!----Colocar o título do seu projeto----->
+                        <p class="card-text">Meu primeiro projeto de progeamação, que é um jogo de pet virtual.</p> <!----Colocar a descrição do seu projeto----->
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------------PROJETO 3---------------------------------------------------------------->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual"> <!----Colocar a imagem do seu terceiro projeto----->
+                    <div class="card-body">
+                        <h5 class="card-title">Batalha espacial!</h5> <!----Colocar o título do seu projeto----->
+                        <p class="card-text">Este projeto Scratch é o clásico jogo de nave espacial que atira.</p> <!----Colocar a descrição do seu projeto----->
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--------------------------------------------DESCRIÇÃO 1--------------------------------------------------------------->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alone in the world</h5> <!----Colocar o título da descrição detalhada do projeto 1----->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> É meu projeto atual, porém ainda não está completo.</p> <!----textos de detalhamento do projeto 1----->
+                    <img src="img/Rectangle 34624339 (1).png" class="img-fluid w-100"  
+ alt="Imagem representativa do projeto de uma biblioteca online"> <!----Imagem que vai aparecer dentro dessa caixa de detalhamento do projeto 1, alterar o nome que esta no comando alt----->
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/users/Jardim_Secreto/">Ver projeto ao vivo</a> <!----Se quiser anexar algo----->
+                    <a href="https://scratch.mit.edu/users/Jardim_Secreto/">Ver código do projeto</a> <!----Se quiser anexar algo----->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------DESCRIÇÃO 2----------------------------------------------------------------->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu pet/h5> <!----Colocar o título da descrição detalhada do projeto 2----->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> Foi meu primeiro projeto, é um simulador de animal de estimação, no qual pode dar nome ao pet, personaliza-lo, tem interações com o cenario e jogos.
+                    </p> <!----textos de detalhamento do projeto 2----->
+                    <p> Como jogar:</p> <!----textos de detalhamento do projeto 2----->
+                    <p>Clique nas comidas para come-las, clique no ícone do gatinho para mudar de cor, clique no ponto de interrogação para ouvir charadas, clique no nariz do gato para mudar seu rosto, clique nos objetos do cenário para mudarem.</p> <!----textos de detalhamento do projeto 2----->
+                    <img src="img/Rectangle 34624339.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online"> <!----Imagem que vai aparecer dentro dessa caixa de detalhamento do projeto 1, alterar o nome que esta no comando alt----->
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/550468368">Ver projeto ao
+                        vivo</a> <!----Se quiser anexar algo----->
+                    <a href="https://scratch.mit.edu/projects/550468368/editor/">Ver código do
+                        projeto</a> <!----Se quiser anexar algo----->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------DESCRIÇÃO 3----------------------------------------------------------------->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Batalha espacial!</h5> <!----Colocar o título da descrição detalhada do projeto 3----->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto Scratch é o clásico jogo de nave espacial que atira.</p> <!----textos de detalhamento do projeto 3----->
+                    <p>Como jogar:</p> <!----textos de detalhamento do projeto 3----->
+                    <p>Clique espaço para atirar, para cima e para baixo para se locomover no espaço.</p> <!----textos de detalhamento do projeto 3----->
+                    <img src="img/download.png" alt="Projeto 3" class="img-fluid w-100"> <!----Imagem que vai aparecer dentro dessa caixa de detalhamento do projeto 1, alterar o nome que esta no comando alt----->
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/534042970">Ver projeto ao vivo</a> <!----Se quiser anexar algo----->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/juwck">GitHub</a> <!----Colocar o link do GitHub de vocês----->
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p> <!----Alterar o nome----->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
